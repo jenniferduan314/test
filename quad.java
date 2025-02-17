@@ -18,6 +18,7 @@ public class quad {
 
     if(a==0){
       System.out.println("The a value cannot equal 0. Please try again!");
+      System.exit(0);
     }
     if (discriminant > 0){
 
