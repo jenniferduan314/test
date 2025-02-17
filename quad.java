@@ -1,7 +1,7 @@
 import java.lang.Math;
 import java.util.*;
 
-public class plzload {
+public class quad {
   public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
     
@@ -17,7 +17,7 @@ public class plzload {
     System.out.println(discriminant);
 
     if(a==0){
-      System.out.println("The a value cannot equal 0. Please try again!")
+      System.out.println("The a value cannot equal 0. Please try again!");
     }
     if (discriminant > 0){
 
