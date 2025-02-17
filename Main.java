@@ -6,7 +6,7 @@ public class Main {
       int totalSymbolAmt, numPerRow;
       char symbol;
   
-      System.out.print("Gimme a symbol you fool:");
+      System.out.print("Gimme a symbol to print out:");
       symbol = input.next().charAt(0);
   
       System.out.print("Enter how many times you want the symbol to appear: ");
@@ -16,7 +16,7 @@ public class Main {
       
       numPerRow = input.nextInt();
   
-      System.out.println("eep");
+      //System.out.println("eep");
       int counter = 1;
   
         for(int i = 1; i <= totalSymbolAmt; i++) {
