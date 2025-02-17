@@ -16,22 +16,26 @@ public class plzload {
     discriminant = ((Math.sqrt(b*b - 4*a*c))*100)/100;
     System.out.println(discriminant);
 
+    if(a==0){
+      System.out.println("The a value cannot equal 0. Please try again!")
+    }
     if (discriminant > 0){
 
       x1 = Math.round(((b*-1)+discriminant)/2*a)*100/100;
       x2 = Math.round(((b*-1)-discriminant)/2*a)*100/100;
       System.out.println("x1 = "+x1 + " x2 = "+x2);
-      
+
     } else if (discriminant == 0){
 
       x1 = Math.round(((b*-1)+discriminant)/2*a)*100/100;
       x2 = Math.round(((b*-1)-discriminant)/2*a)*100/100;
       System.out.println("Both solutions for this equation are "+x1); 
-      
+
     } else {
       System.out.println("There are no solutions for this quadratic eqn.");
     }
     
     
   }
+
 }
